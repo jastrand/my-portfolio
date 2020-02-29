@@ -101,46 +101,44 @@ margin-bottom: 2px;
   color: red;
 }
 
-.colorandbold, .colorandbold {
-  font-weight: bolder;
-}
-
 .color-bold-underline {
   text-decoration: underline;
 }
+
 /* PROJECTS AND ARTICLE IMAGES */
 
-.projects img, .my-articles img {
+.projects-container img, .my-articles img {
   width: 350px;
   height: 150px;
   border: none;
   filter: grayscale(50%);
 }
 
-.project-image {
+/*.project-image {
   position: relative;
   text-align: center;
   color: white;
 }
+*/
 
-.image-title {
+/*.image-title {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: white 0px 0px 10px;
-
 }
-
-.articles, .projects a {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  width: 350px;
-}
+*/
 
 /* MY PROJECTS STYLING */
+
+.articles-container, .projects-container a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
 
 .project-tags {
   text-align: left;
@@ -155,12 +153,7 @@ font-size: 13px;
 margin-bottom: 50px;
 }
 
-.other-projects {
-  text-decoration: underline;
-  text-align: left;
-}
-
-.article-date, .project-title {
+.article-date, .container-title, .other-projects-title {
   color: red;
   font-size: 15px;
   text-align: left;
@@ -171,7 +164,7 @@ margin-bottom: 50px;
   text-align: left;
 }
 
-.article-description, .project-description {
+.article-description, .container-description, .other-projects-description {
   margin-bottom: 10px;
   text-align: left;
 }
@@ -228,24 +221,53 @@ footer h3 {
     height: 500px;
   }
 
+  h1 {
+    font-size: 55px;
+  }
+
   h3 {
     font-size: 30px;
   }
 
-  .intro-text, .tech {
-    padding-right: 400px;
-    padding-left: 400px;
+  .uppercase {
+    margin: 5px;
   }
 
-  .project-descriptions, .project-tags {
+  .intro-text, .tech {
+    padding-right: 300px;
+    padding-left: 300px;
+  }
+
+  .project-descriptions, .project-tags, .other-projects-title, .other-projects-description {
   text-align: center;
   }
 
-  .articles, .projects a {
+  .projects-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-flow: wrap;
     justify-content: center;
-    width: 350px;
   }
 
+  .articles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 35%;
+  }
+
+  .projects-container a {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .articles-container a {
+    margin-left: 40px;
+  }
+
+  .my-articles {
+    text-align: center;
+  }
 }
+  
