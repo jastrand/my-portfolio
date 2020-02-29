@@ -75,7 +75,7 @@ margin-bottom: 2px;
   text-align: center;
 }
 
-.tech, .my-articles {
+.tech, .my-articles, .for-more {
   background: white;
   color: black;
   text-align: center;
@@ -130,7 +130,7 @@ margin-bottom: 10px;
   margin-bottom: 10px;
 }
 
-.skill-title {
+.skill-title, .for-more-text {
   color: red;
   text-transform: uppercase;
 }
@@ -140,4 +140,37 @@ margin-bottom: 10px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.for-more-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.for-more-icons img {
+  height: 100%;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+
+.for-more-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer {
+  background: blue;
+  color: white;
+  text-align: center;
+  height: 100%;
+  padding: 50px;
+  margin-top: 0;
+}
+
+footer h3 {
+  background: none;
 }
