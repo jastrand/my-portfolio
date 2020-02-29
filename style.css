@@ -1,3 +1,143 @@
 body {
   background: yellow;
+  color: white;
+  font-family: 'Roboto', 'Montserrat';
+}
+
+header {
+  background-image: url(header-img.jpeg);
+  height: 500px;
+  padding: 20px;
+}
+
+h3, h4, .uppercase {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: bolder;
+  margin: 2px;
+}
+
+h2 {
+  margin: 2px;
+}
+
+h3 {
+padding:0em 0.4em 0em 0.4em;
+display:inline-block;
+background-color: red;
+color:#FFF;
+font-size: 25px;
+}
+
+h4 {
+  color: red;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-portrait {
+  border: 2px solid white;
+  border-radius: 95%;
+  float: right;
+}
+
+.icons img {
+  border: 2px solid white;
+  border-radius: 25px;
+  height: 20px;
+  padding: 20px;
+  margin: 5px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header-text {
+font-size: 17px;
+padding: 60px;
+margin-bottom: 2px;
+}
+
+.intro-text {
+  background: #f4f4f4;
+  height: 100px;
+  padding: 50px;
+  color: black;
+  text-align: center;
+}
+
+.tech, .my-articles {
+  background: white;
+  color: black;
+  text-align: center;
+  height: 100%;
+  padding: 50px;
+  margin-top: 0;
+}
+
+.featured-projects, .skills {
+  background: whitesmoke;
+  color: black;
+  text-align: center;
+  height: 100%;
+  padding: 50px;
+  margin-top: 0;
+}
+
+.projects img, .my-articles img {
+  width: 270px;
+  height: 150px;
+  border: none;
+}
+
+.project-description {
+  padding: 10px
+}
+
+.tag-one, .tag-two, .tag-three, .tag-four {
+padding:0em 0.4em 0em 0.4em;
+display:inline-block;
+background-color:pink;
+color:#FFF; 
+font-size: 15px;
+margin-bottom: 10px;
+}
+
+.other-projects .project-description {
+  text-decoration: underline;
+}
+
+.article-date {
+  color: red;
+  font-size: 15px;
+}
+
+.article-title {
+  font-style: bold;
+  font-size: 20px;
+}
+
+.article-description {
+  margin-bottom: 10px;
+}
+
+.skill-title {
+  color: red;
+  text-transform: uppercase;
+}
+
+.skill-set {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
