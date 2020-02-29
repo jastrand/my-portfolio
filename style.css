@@ -2,8 +2,11 @@ body {
   background: yellow;
   color: white;
   font-family: 'Montserrat', 'Roboto';
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
+/* HEADER STYLING */
 header {
   background-image: url(header-img.jpeg);
   height: 500px;
@@ -29,6 +32,7 @@ display:inline-block;
 background-color: red;
 color:#FFF;
 font-size: 20px;
+font-family: 'Roboto';
 }
 
 h4 {
@@ -63,17 +67,16 @@ a {
 
 .header-text {
 font-size: 17px;
-padding: 55px;
+padding: 45px;
 margin-bottom: 2px;
 }
 
 .intro-text {
   background: #f4f4f4;
-  height: 100px;
-  padding: 50px;
+  height: 100%;
+  padding: 40px;
   color: black;
   text-align: left;
-  font-weight: lighter;
 }
 
 .tech, .my-articles, .for-more {
@@ -93,6 +96,19 @@ margin-bottom: 2px;
   padding: 50px;
   margin-top: 0;
 }
+
+.colorme, .colorandbold, .color-bold-underline {
+  color: red;
+}
+
+.colorandbold, .colorandbold {
+  font-weight: bolder;
+}
+
+.color-bold-underline {
+  text-decoration: underline;
+}
+/* PROJECTS AND ARTICLE IMAGES */
 
 .projects img, .my-articles img {
   width: 350px;
@@ -117,16 +133,17 @@ margin-bottom: 2px;
 
 }
 
-.project-description {
-  text-align: left;
+.articles, .projects a {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 350px;
 }
+
+/* MY PROJECTS STYLING */
 
 .project-tags {
   text-align: left;
-}
-
-.project-one, .project-two, .project-three, .project-four {
-  padding-left: 10px;
 }
 
 .tag-one, .tag-two, .tag-three, .tag-four {
@@ -138,11 +155,12 @@ font-size: 13px;
 margin-bottom: 50px;
 }
 
-.other-projects .project-description {
+.other-projects {
   text-decoration: underline;
+  text-align: left;
 }
 
-.article-date {
+.article-date, .project-title {
   color: red;
   font-size: 15px;
   text-align: left;
@@ -153,7 +171,7 @@ margin-bottom: 50px;
   text-align: left;
 }
 
-.article-description {
+.article-description, .project-description {
   margin-bottom: 10px;
   text-align: left;
 }
@@ -201,4 +219,33 @@ footer {
 
 footer h3 {
   background: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1000px) {
+  header {
+    height: 500px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .intro-text, .tech {
+    padding-right: 400px;
+    padding-left: 400px;
+  }
+
+  .project-descriptions, .project-tags {
+  text-align: center;
+  }
+
+  .articles, .projects a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+  }
+
 }
