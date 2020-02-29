@@ -1,7 +1,7 @@
 body {
   background: yellow;
   color: white;
-  font-family: 'Roboto', 'Montserrat';
+  font-family: 'Montserrat', 'Roboto';
 }
 
 header {
@@ -15,7 +15,7 @@ h3, h4, .uppercase {
 }
 
 h1 {
-  font-weight: bolder;
+  font-weight: bold;
   margin: 2px;
 }
 
@@ -28,7 +28,7 @@ padding:0em 0.4em 0em 0.4em;
 display:inline-block;
 background-color: red;
 color:#FFF;
-font-size: 25px;
+font-size: 20px;
 }
 
 h4 {
@@ -48,7 +48,7 @@ a {
 }
 
 .icons img {
-  border: 2px solid white;
+  border: 4px solid white;
   border-radius: 25px;
   height: 20px;
   padding: 20px;
@@ -63,7 +63,7 @@ a {
 
 .header-text {
 font-size: 17px;
-padding: 60px;
+padding: 55px;
 margin-bottom: 2px;
 }
 
@@ -72,7 +72,8 @@ margin-bottom: 2px;
   height: 100px;
   padding: 50px;
   color: black;
-  text-align: center;
+  text-align: left;
+  font-weight: lighter;
 }
 
 .tech, .my-articles, .for-more {
@@ -94,22 +95,47 @@ margin-bottom: 2px;
 }
 
 .projects img, .my-articles img {
-  width: 270px;
+  width: 350px;
   height: 150px;
   border: none;
+  filter: grayscale(50%);
+}
+
+.project-image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: white 0px 0px 10px;
+
 }
 
 .project-description {
-  padding: 10px
+  text-align: left;
+}
+
+.project-tags {
+  text-align: left;
+}
+
+.project-one, .project-two, .project-three, .project-four {
+  padding-left: 10px;
 }
 
 .tag-one, .tag-two, .tag-three, .tag-four {
 padding:0em 0.4em 0em 0.4em;
 display:inline-block;
 background-color:pink;
-color:#FFF; 
-font-size: 15px;
-margin-bottom: 10px;
+color: black; 
+font-size: 13px;
+margin-bottom: 50px;
 }
 
 .other-projects .project-description {
@@ -119,15 +145,17 @@ margin-bottom: 10px;
 .article-date {
   color: red;
   font-size: 15px;
+  text-align: left;
 }
 
 .article-title {
-  font-style: bold;
   font-size: 20px;
+  text-align: left;
 }
 
 .article-description {
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .skill-title, .for-more-text {
