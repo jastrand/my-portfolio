@@ -110,8 +110,6 @@ margin-bottom: 2px;
 .projects-container img, .my-articles img {
   width: 350px;
   height: 150px;
-  border: none;
-  filter: grayscale(50%);
 }
 
 /*.project-image {
@@ -187,7 +185,7 @@ margin-bottom: 50px;
   justify-content: center;
 }
 
-.for-more-icons img {
+.for-more-icons a {
   height: 100%;
   padding: 20px;
   margin: 10px;
@@ -198,7 +196,11 @@ margin-bottom: 50px;
 .for-more-text {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.for-more-text p {
+  margin-right: 15px;
 }
 
 footer {
