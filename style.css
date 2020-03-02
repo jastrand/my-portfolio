@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', ;
+  color: #2B2E34;
 }
 
 
@@ -26,8 +27,22 @@ h3 {
     text-align: left;
   }
 
-  .colorme {
+  .colorme, .color-underline, .uppercase-red {
     color: #FA382F;
+  }
+
+  .color-underline {
+    text-decoration: underline;
+  }
+
+  .uppercase-red {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    color: #2B2E34;
   }
 
   /* HEADER STYLING */
@@ -84,10 +99,27 @@ header a {
 h5 {
   color: #FDDFE7;
   background-color: transparent;
+  text-transform: uppercase;
 }
 
-.project-one h5 {
+.project-image {
   background-image: url(header-img.jpeg);
+  width: 300px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.tag {
+  background: pink;
+  margin-right: 5px;
+  padding: 4px;
 }
 
 /* FOR MORE INFO BOX */
