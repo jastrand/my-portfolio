@@ -8,23 +8,31 @@ body {
 /* TEXT STYLING */
 
 h3 {
-  padding:0em 0.4em 0em 0.4em;
-  background-color: #FA382F;
   color:#FFF;
-  display:inline-block;
   font-size: 22px;
   font-weight: bolder;
   opacity: 1;
   text-transform: uppercase;
   letter-spacing: 0;
-  text-align: left;
+  text-align: center;
+  }
+
+  h3 span {
+    background-color: #FA382F;
+    padding: 4px 8px 4px 8px;
   }
 
   h4 {
     font-size: 21px;
     color: #FA382F;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
+  }
+
+  h5 {
+    color: #FDDFE7;
+    background-color: transparent;
+    text-transform: uppercase;
   }
 
   .colorme, .color-underline, .uppercase-red {
@@ -40,11 +48,48 @@ h3 {
     font-weight: bold;
   }
 
+  .uppercase {
+    text-transform: uppercase;
+  }
+
   a {
     text-decoration: none;
     color: #2B2E34;
   }
 
+  p {
+    font-size: 17px;
+    
+  }
+
+  p .intro {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .thought-date {
+    font-size: 17px;
+    color: #FA382F;
+  }
+
+  .thought-title {
+    font-size: 21px;
+    font-weight: bold;
+  }
+
+  .thoughts-text {
+    margin: 5px;
+  }
+
+  .skill-title {
+    font-weight: bold;
+    color: #FA382F;
+    text-transform: uppercase;
+  }
+
+  .skill-set p {
+    margin: 3px 0 3px 0;
+  }
   /* HEADER STYLING */
 
 header {
@@ -85,6 +130,27 @@ header a {
 
 
 /* SECTION BOXES */
+
+
+.decoration {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  background: #FA382F;
+  height: 3px;
+  width: 50px;
+}
+
+.circle {
+  background: #FA382F;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-left: -5px;
+}
+
 .portfolio-section {
   height: 100%;
   padding: 10px 36px;
@@ -96,11 +162,6 @@ header a {
 
 /* FEATURED PROJECTS */
 
-h5 {
-  color: #FDDFE7;
-  background-color: transparent;
-  text-transform: uppercase;
-}
 
 .project-image {
   background-image: url(header-img.jpeg);
@@ -114,28 +175,65 @@ h5 {
 .project-tags {
   display: flex;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .tag {
-  background: pink;
+  background: #FDDFE7;
   margin-right: 5px;
   padding: 4px;
+  font-size: 9px;
 }
+
+/* FEATURED BLOG POSTS */
+
+.thoughts {
+  width: 300px;
+  height: 205px;
+}
+
+.skill-set {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
 
 /* FOR MORE INFO BOX */
 
 .for-more a {
   border: 3px solid#FA382F;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   opacity: 1;
-  padding: 15px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.for-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 30px 0;
 }
 
 footer {
   padding: 10px 36px;
   background: blue;
+  height: 270px;
+  text-align: center;
+  color: #FFF;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 
