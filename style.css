@@ -316,13 +316,33 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
   
   .project-box {
     flex: 1;
-    padding-right: 30px;
+    padding-right: 10px;
     max-width: 300px;
   }
+
+  .project-box.more, .more-thoughts.more {
+    max-width: 100%;
+    justify-content: flex-start;
+    margin: 0px;
+  }
+
+  .project-box.more p, .more-thoughts.more p {
+    text-decoration: underline;
+  }
+
+  .uppercase-red, .thought-date {
+    text-decoration: underline;
+    color: red;
+  }
+
+.none {
+  text-decoration: none;
+}
 
   .my-thoughts {
     display: flex;
