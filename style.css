@@ -225,6 +225,7 @@ header a {
 .project-boxes {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .project-box {
@@ -309,6 +310,18 @@ footer {
 
   .portfolio-section {
     padding: 0 160px 0 160px;
+  }
+
+  .project-boxes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-box {
+    flex: 1;
+    padding-right: 30px;
+    max-width: 300px;
   }
 
   .my-thoughts {
