@@ -399,6 +399,11 @@ h2 {
 
 }
 
+@media screen and (min-width: 1400px) {
+.project-box {
+  padding-right: 20px;
+}
+}
 
 
 
