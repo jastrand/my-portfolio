@@ -401,6 +401,11 @@ h2 {
 
 @media screen and (min-width: 1400px) {
 
+header {
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
 .project-box {
   padding-right: 70px;
 }
