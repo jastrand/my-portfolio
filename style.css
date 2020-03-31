@@ -131,6 +131,7 @@ h3 {
 header {
   height: 500px;
   background-image: url(space.jpeg);
+  background-repeat: no-repeat;
   padding: 40px 36px 0 36px;
   display: flex;
   color: white;
@@ -375,6 +376,7 @@ footer {
 
 header {
   padding: 40px 200px 0 200px;
+  object-fit: cover;
 }
 
 .portfolio-section {
@@ -400,6 +402,10 @@ h2 {
 }
 
 @media screen and (min-width: 1400px) {
+
+  body {
+    padding: 70px;
+  }
 
 .project-box {
   padding-right: 70px;
