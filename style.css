@@ -403,6 +403,19 @@ footer {
   }
 }
 
+@media screen and (min-width: 1500px) {
+
+  header {
+    padding: 40px 300px 0 300px;
+    background-size: cover;
+  }
+
+  .portfolio-section {
+    padding: 0px 300px 0 300px;
+  }
+
+}
+
 
 
 
