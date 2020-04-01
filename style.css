@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-  color:#FFF;
+  color: white;
   font-size: 22px;
   font-weight: bolder;
   opacity: 1;
@@ -30,15 +30,14 @@ h3 {
 }
 
 h3 span {
- background: rgb(16,6,107);
- background: linear-gradient(90deg, rgba(16,6,107,1) 0%, rgba(92,101,235,1) 100%, rgba(255,255,255,1) 100%, rgba(252,176,69,1) 100%);
+ background: #4B0082;
  padding: 4px 8px 4px 8px;
  justify-self: flex-start;
 }
 
 h4 {
  font-size: 21px;
- color: #FA382F;
+ color: #4B0082;
  text-transform: uppercase;
  text-align: center;
  font-family: 'Montserrat';
@@ -50,8 +49,9 @@ h5 {
  text-transform: uppercase;
 }
 
-.colorme, .color-underline, .uppercase-red {
- color: #FA382F;
+.colorme, .color-underline, .uppercase-red, .thought-date, .skill-title {
+ /*color: #4B0082;*/
+ color: #544f91;
 }
 
 .color-underline {
@@ -88,7 +88,6 @@ p {
 
 .thought-date {
  font-size: 17px;
- color: #FA382F;
  font-family: 'Roboto';
 }
 
@@ -105,7 +104,6 @@ p {
 
 .skill-title {
  font-weight: bold;
- color: #FA382F;
  text-transform: uppercase;
 }
 
@@ -122,8 +120,6 @@ p {
  margin-bottom: 60px;
  font-family: 'Montserrat';
 }
-
-
 
 /* HEADER STYLING */
 
@@ -215,7 +211,8 @@ header a {
 }
 
 .tag {
-  background: #FDDFE7;
+  background: #4B0082;
+  color: white;
   margin-right: 5px;
   padding: 4px;
   font-size: 9px;
@@ -245,7 +242,7 @@ header a {
 /* FOR MORE INFO BOX */
 
 .for-more a {
-  border: 3px solid#FA382F;
+  border: 3px solid#4B0082;
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -255,6 +252,11 @@ header a {
   align-items: center;
   justify-content: center;
   margin-right: 10px;
+  transition: all .2s ease-in-out;
+}
+
+.for-more a:hover {
+  transform: scale(1.1);
 }
 
 .for-more {
@@ -267,13 +269,13 @@ header a {
 
 footer {
   padding: 10px 36px;
-  background: blue;
+  background: #4B0082;
   height: 270px;
   text-align: center;
   color: #FFF;
 }
 
-.bold {
+.bold, .colorme {
   font-weight: bold;
 }
 
@@ -329,7 +331,7 @@ footer {
 
   .uppercase-red, .thought-date {
   text-decoration: underline;
-  color: red;
+  color: #4B0082;
   }
 
   .none {
@@ -340,7 +342,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   }
 
   .my-thoughts a {
