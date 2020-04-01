@@ -403,11 +403,12 @@ footer {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1700px) {
 
-  body {
-  padding: 70px;
-  }
+  header {
+    background-size: cover;
+}
+
 }
 
 
