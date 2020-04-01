@@ -1,3 +1,3 @@
-More portfolio in progress:
+My portfolio:
 
-https://wonderful-davinci-d5631b.netlify.com/
+https://johanna-astrand-portfolio.netlify.com/
