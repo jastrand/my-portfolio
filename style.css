@@ -379,7 +379,7 @@ footer {
 
   header {
     padding: 40px 200px 0 200px;
-    object-fit: cover;
+    background-size: cover;
   }
 
   .portfolio-section {
@@ -403,13 +403,6 @@ footer {
   }
 }
 
-@media screen and (min-width: 1700px) {
-
-  header {
-    background-size: cover;
-}
-
-}
 
 
 
