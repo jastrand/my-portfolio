@@ -1,32 +1,32 @@
 body {
-margin: 0;
-font-family: 'Montserrat';
-color: #2B2E34;
+  margin: 0;
+  font-family: 'Montserrat';
+  color: #2B2E34;
 }
 
 /* TEXT STYLING */
 
 h1 {
-font-size: 40px;
-margin: 0;
-font-family: 'Montserrat';
+  font-size: 40px;
+  margin: 0;
+  font-family: 'Montserrat';
 }
 
 h2 {
-font-size: 24px;
-margin: 0;
-font-family: 'Montserrat';
+  font-size: 24px;
+  margin: 0;
+  font-family: 'Montserrat';
 }
 
 h3 {
-color:#FFF;
-font-size: 22px;
-font-weight: bolder;
-opacity: 1;
-text-transform: uppercase;
-letter-spacing: 0;
-text-align: center;
-font-family: 'Montserrat'; 
+  color:#FFF;
+  font-size: 22px;
+  font-weight: bolder;
+  opacity: 1;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-align: center;
+  font-family: 'Montserrat'; 
 }
 
 h3 span {
@@ -55,10 +55,10 @@ h5 {
 }
 
 .color-underline {
- text-decoration: underline;
+  text-decoration: underline;
  }
 
- .uppercase-red {
+.uppercase-red {
  text-transform: uppercase;
  font-weight: bold;
 }
