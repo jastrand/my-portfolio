@@ -249,10 +249,15 @@ header a {
 .skill-set {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: center;
   margin-top: 0px;
 }
+
+.code, .more, .toolbox {
+  margin: 20px;
+}
+
 
 /* FOR MORE INFO BOX */
 
@@ -382,10 +387,6 @@ footer {
   width: 220px;
   height: 220px;
   margin-bottom: -30px;
-  }
-
-  .code, .more, .toolbox, .Upcoming {
-    margin: 20px;
   }
 
 }
