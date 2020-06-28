@@ -47,8 +47,9 @@ h5 {
  background-color: transparent;
  text-transform: uppercase;
  font-size: 20px;
- color:#EE82EE;
- text-shadow: 2px 2px #4B0082;
+ padding: 5px;
+ color: #4B0082;
+ background-color: white;
  position: absolute;
  top: 30%;
  left: 50%;
@@ -355,13 +356,16 @@ footer {
   margin: 0px;
   }
 
-  .project-box.more p, .more-thoughts.more p {
+  .project-box.more p:hover, .more-thoughts.more p:hover {
   text-decoration: underline;
   }
 
   .uppercase-red, .thought-date {
-  text-decoration: underline;
   color: #4B0082;
+  }
+
+  .uppercase-red:hover, .thought-date:hover {
+    text-decoration: underline;
   }
 
   .none {
@@ -411,7 +415,7 @@ footer {
   }
 
   h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .my-thoughts a {
